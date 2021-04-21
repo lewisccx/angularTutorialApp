@@ -1,0 +1,8 @@
+<h1>{{user.name}}</h1>
+<h1>{{user.age}}</h1>
+<h1>{{user.id}}</h1>
+
+<button (click)="sendUserEvent()">send user event</button>
+<br>
+<div [ngClass]="isColored ? 'colored': '' ">color me</div>
+
