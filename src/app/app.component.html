@@ -48,11 +48,11 @@
 
 
 <!-- use async to fix memory leak  -->
-<!-- <ul *ngFor="let item of (scPosts | async); let i = index">
+<ul *ngFor="let item of (scPosts | async); let i = index">
     <li>{{ i}}</li>
     <li>{{ item.title}}</li>
     <li>{{ item.body}}</li>
-</ul> -->
+</ul>
 
 <input type ="text" [formControl] = "favColorControl" name="testProp" >
 {{favColorControl.value}}
